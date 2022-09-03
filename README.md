@@ -4,8 +4,15 @@
 [![Build and Test Package](https://github.com/nexys-system/typescript-package-template/actions/workflows/test.yml/badge.svg)](https://github.com/nexys-system/typescript-package-template/actions/workflows/test.yml)
 [![Publish](https://github.com/nexys-system/typescript-package-template/actions/workflows/publish.yml/badge.svg)](https://github.com/nexys-system/typescript-package-template/actions/workflows/publish.yml)
 ![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
-[![Bundlephobia](https://badgen.net/bundlephobia/min/@nexys/template)](https://bundlephobia.com/result?p=@nexys/template)
+
+## Badges
+
+Generate badges automatically, using [this link](https://nexys-system.github.io/repository-badges/)
 
 ## Config
 
 * `NPM_AUTH_TOKEN` is required for the CI and auto-publish
+
+## Node version
+
+This packages uses node `v18`. This allows you to use [`fetch` natively without needing to install any extra packages](https://blog.logrocket.com/fetch-api-node-js/). However, make sure you are running the right node version when working with it or in parent projects. `node --version` should return 18 or greater.
