@@ -15,4 +15,9 @@ Generate badges automatically, using [this link](https://nexys-system.github.io/
 
 ## Node version
 
-This packages uses node `v18`. This allows you to use [`fetch` natively without needing to install any extra packages](https://blog.logrocket.com/fetch-api-node-js/). However, make sure you are running the right node version when working with it or in parent projects. `node --version` should return 18 or greater.
+This packages uses node `v18`.
+
+This allows you to use [`fetch` natively without needing to install any extra packages](https://blog.logrocket.com/fetch-api-node-js/).
+However, make sure you are running the right node version when working with it or in parent projects. `node --version` should return 18 or greater.
+
+See also: [SO: how can i use native fetch with node in typescript (node v17.6)](https://stackoverflow.com/questions/71294230/how-can-i-use-native-fetch-with-node-in-typescript-node-v17-6/74112582#74112582)
